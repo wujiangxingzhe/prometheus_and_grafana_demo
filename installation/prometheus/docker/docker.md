@@ -33,6 +33,7 @@ systemctl status docker
 mkdir /data
 git clone https://gitee.com/linge365/docker-prometheus.git
 cd docker-prometheus
+docker-compose up -d
 ```
 * prometheus: 9090
 * grafana: 3000
